@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d44db83b-c344-473f-b364-74688e23c1ba" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="php2@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="php2@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="php2@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="php2: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="php2@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="php2: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="news: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="php2@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="php2: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="person: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="127.0.0.1" id="7e9fbccc-bd2c-4cdd-98a7-024b70e1e64a" name="localhost" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3" />
+  <component name="PhpXdebugProxy" ide_key="PhpStorm" host="127.0.0.1" port="9000" />
+  <component name="ProjectId" id="1V76NaAfvXXlY4GkfH93kueLW4D" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="/usr/bin/php" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/App" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="localhost">
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="localhost">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:php2@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d44db83b-c344-473f-b364-74688e23c1ba" name="Default Changelist" comment="" />
+      <created>1576591746163</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576591746163</updated>
+      <workItem from="1576591747509" duration="6109000" />
+      <workItem from="1576598558172" duration="8532000" />
+      <workItem from="1576734431777" duration="8462000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="543" y="214" width="824" height="691" key="#CLI_Interpreters" timestamp="1576599281799">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="543" y="214" width="824" height="691" key="#CLI_Interpreters/0.27.1920.1053@0.27.1920.1053" timestamp="1576599281799" />
+    <state x="555" y="215" width="800" height="684" key="#SQL_Dialects" timestamp="1576601837621">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="555" y="215" width="800" height="684" key="#SQL_Dialects/0.27.1920.1053@0.27.1920.1053" timestamp="1576601837621" />
+    <state x="538" y="215" width="824" height="691" key="#Servers" timestamp="1576601349535">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="538" y="215" width="824" height="691" key="#Servers/0.27.1920.1053@0.27.1920.1053" timestamp="1576601349535" />
+    <state x="555" y="215" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576601351521">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="555" y="215" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1576601351521" />
+    <state x="693" y="311" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1576755507208">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="693" y="311" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1576755507208" />
+    <state x="782" y="524" width="424" height="491" key="FileChooserDialogImpl" timestamp="1576599277257">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="782" y="524" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1576599277257" />
+    <state width="1874" height="448" key="GridCell.Tab.0.bottom" timestamp="1576746655104">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="448" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1576746655104" />
+    <state width="1874" height="448" key="GridCell.Tab.0.center" timestamp="1576746655104">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="448" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1576746655104" />
+    <state width="1874" height="448" key="GridCell.Tab.0.left" timestamp="1576746655103">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="448" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1576746655103" />
+    <state width="1874" height="448" key="GridCell.Tab.0.right" timestamp="1576746655104">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="448" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1576746655104" />
+    <state width="1874" height="448" key="GridCell.Tab.1.bottom" timestamp="1576746655105">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="448" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1576746655105" />
+    <state width="1874" height="448" key="GridCell.Tab.1.center" timestamp="1576746655105">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="448" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1576746655105" />
+    <state width="1874" height="448" key="GridCell.Tab.1.left" timestamp="1576746655104">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="448" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1576746655104" />
+    <state width="1874" height="448" key="GridCell.Tab.1.right" timestamp="1576746655105">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="448" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1576746655105" />
+    <state width="1874" height="448" key="GridCell.Tab.2.bottom" timestamp="1576746655106">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="448" key="GridCell.Tab.2.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1576746655106" />
+    <state width="1874" height="448" key="GridCell.Tab.2.center" timestamp="1576746655105">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="448" key="GridCell.Tab.2.center/0.27.1920.1053@0.27.1920.1053" timestamp="1576746655105" />
+    <state width="1874" height="448" key="GridCell.Tab.2.left" timestamp="1576746655105">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="448" key="GridCell.Tab.2.left/0.27.1920.1053@0.27.1920.1053" timestamp="1576746655105" />
+    <state width="1874" height="448" key="GridCell.Tab.2.right" timestamp="1576746655106">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="448" key="GridCell.Tab.2.right/0.27.1920.1053@0.27.1920.1053" timestamp="1576746655106" />
+    <state x="738" y="367" width="521" height="380" key="NewPhpClassDialog" timestamp="1576750445665">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="738" y="367" width="521" height="380" key="NewPhpClassDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1576750445665" />
+    <state x="755" y="479" width="399" height="156" key="NewPhpFileDialog" timestamp="1576755067673">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="755" y="479" width="399" height="156" key="NewPhpFileDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1576755067673" />
+    <state x="692" y="443" width="526" height="228" key="PhpMappingAdvancedResolveDialog" timestamp="1576601397680">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="692" y="443" width="526" height="228" key="PhpMappingAdvancedResolveDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1576601397680" />
+    <state x="449" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1576599283890">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="449" y="188" width="1022" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1576599283890" />
+    <state x="713" y="379" width="484" height="357" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1576600564170">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="713" y="379" width="484" height="357" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1576600564169" />
+    <state x="679" y="193" width="552" height="727" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1576747957681">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="679" y="193" width="552" height="727" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1576747957681" />
+    <state x="0" y="27" width="1910" height="1053" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog" timestamp="1576598759980">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="0" y="27" width="1910" height="1053" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1576598759980" />
+    <state x="685" y="467" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1576597159981">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="685" y="467" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1576597159981" />
+  </component>
+</project>
