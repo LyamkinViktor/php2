@@ -14,7 +14,13 @@ class Db
      */
     public function __construct()
     {
-        $this->dbh = new \PDO('mysql:host=localhost;dbname=php2', 'profit_user', '123456');
+        $config = new Config();
+        $data = $config->data;
+        $this->dbh = new \PDO(
+            'mysql:host=' . $data['db']['host'] . ';dbname=' . $data['db']['dbname'],
+            $data['db']['username'],
+            $data['db']['password']
+        );
     }
 
     /**
@@ -42,10 +48,20 @@ class Db
      *
      * @return bool
      */
-    public function execute($query, $params=[]): bool
+    public function execute($query, $params = []): bool
     {
         $sth = $this->dbh->prepare($query);
 
         return true === $sth->execute($params);
+    }
+
+    /**
+     * Get last insert id.
+     *
+     * @return string
+     */
+    public function getLastInsertId(): string
+    {
+        return $this->dbh->lastInsertId();
     }
 }
