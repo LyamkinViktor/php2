@@ -14,7 +14,7 @@ class Db
      */
     public function __construct()
     {
-        $config = new Config();
+        $config = Config::getInstance();
         $data = $config->data;
         $this->dbh = new \PDO(
             'mysql:host=' . $data['db']['host'] . ';dbname=' . $data['db']['dbname'],

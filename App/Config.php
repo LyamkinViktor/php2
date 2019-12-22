@@ -8,10 +8,28 @@ namespace App;
  */
 class Config
 {
-    public $data = [];
+    private static $instance;
+    public $data;
 
-    public function __construct()
+    /**
+     * Config constructor.
+     */
+    private function __construct()
     {
         $this->data = require __DIR__ . '/DbConfig.php';
+    }
+
+    /**
+     * Get config instance.
+     *
+     * @return Config
+     */
+    public static  function getInstance(): Config
+    {
+        if (null === self::$instance) {
+            self::$instance = new self();
+        }
+
+        return self::$instance;
     }
 }

@@ -8,12 +8,18 @@
     <title>News</title>
 </head>
 <body>
-    <?php foreach ($lastThreeNews as $article) {?>
+    <?php foreach ($lastThreeNews as $news) {?>
         <p>
-            <a href="article.php?id=<?php echo $article->id; ?>">
-                <?php  echo $article->note; ?>
+            <a href="/php2/App/news.php?id=<?php echo $news->id; ?>">
+                <?php  echo $news->article; ?>
             </a>
         </p>
     <?php } ?>
+
+    <div>
+        <a href="/php2/App/Admin/admin.php">
+            Admin panel
+        </a>
+    </div>
 </body>
 </html>

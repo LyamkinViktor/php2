@@ -1,12 +1,9 @@
 <?php
 
-use App\Models\Article;
-use App\Models\Person;
+use App\Models\News;
 
 require __DIR__ . '/autoload.php';
 
-$person = Person::findById(18);
+$lastThreeNews = News::findLastThree();
 
-var_dump($person->delete());
-
-//include __DIR__ . '/templates/index.php';
+include __DIR__ . '/templates/index.php';

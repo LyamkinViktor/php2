@@ -1,8 +1,10 @@
 <?php
 
+use App\Db;
+
 require __DIR__ . '/../autoload.php';
 
-$db = new \App\Db();
+$db = new Db();
 
 $sql = 'INSERT INTO `person` (id, name, age) VALUE (null, \'Ivan\', 30)';
 $insert = $db->execute($sql);

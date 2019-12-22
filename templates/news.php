@@ -9,7 +9,10 @@
 </head>
 <body>
     <p>
-        Article: <?php echo $article->note; ?>
+        News: <?php echo $news->article; ?>
+    </p>
+    <p>
+        Description: <?php  echo $news->description; ?>
     </p>
 </body>
 </html>

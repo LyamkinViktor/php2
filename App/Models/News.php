@@ -6,13 +6,13 @@ use App\Db;
 use App\Model;
 
 /**
- * Class Article
+ * Class News
  * @package App\Models
  */
-class Article extends Model
+class News extends Model
 {
     protected const TABLE = 'news';
-    public $note;
+    public $article;
 
     /**
      * Get model name.
