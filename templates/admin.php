@@ -29,11 +29,13 @@
         <table>
             <tr>
                 <th>News</th>
+                <th>Author</th>
                 <th>Actions</th>
             </tr>
-            <?php foreach ($news as $oneNews) : ?>
+            <?php foreach ($news as $oneNews): ?>
             <tr>
                 <td><?php echo $oneNews->article; ?></td>
+                <td><?php if (isset($oneNews->author)): echo $oneNews->author->name; endif ?></td>
                 <td>
                     <a href="/php2/App/Admin/newsEditing.php?id=<?php echo $oneNews->id; ?>">Edit</a>
                     <a href="/php2/App/Admin/admin.php?delete&id=<?php echo $oneNews->id; ?>" style="color: firebrick;">Delete</a>

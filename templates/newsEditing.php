@@ -10,7 +10,7 @@
 <body>
 <h2>Editing news</h2>
 
-<form action="/php2/App/Admin/admin.php?id=<?php echo $_GET['id'] ?>" method="post">
+<form action="/php2/App/Admin/admin.php?id=<?php echo $id ?>" method="post">
     <p>
         <label for="newsHeadline">News headline</label>
         <input
@@ -23,7 +23,17 @@
 
     <p>
         <label for="newsDescription">Description of the news</label>
-        <textarea id="newsDescription" name="newsDescription"><?php if (isset($news)) { echo $news->description; } ?></textarea>
+        <textarea id="newsDescription" name="newsDescription"><?php if (isset($news)): echo $news->description; endif ?></textarea>
+    </p>
+
+    <p>
+        <label for="author" >Author:</label>
+        <input
+            type="text"
+            id="author"
+            name="author"
+            value="<?php if (isset($news->author)): echo $news->author->name; endif ?>"
+        >
     </p>
 
     <input type="submit" value="Save">

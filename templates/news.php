@@ -14,5 +14,12 @@
     <p>
         Description: <?php  echo $news->description; ?>
     </p>
+    <p>
+        <?php if (isset($news->author)): ?>
+            Author: <?php echo $news->author->name ?>
+        <?php else: ?>
+            Author unknown.
+        <?php endif ?>
+    </p>
 </body>
 </html>

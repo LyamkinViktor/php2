@@ -9,7 +9,7 @@ if (isset($_POST['newsHeadline'], $_POST['newsDescription'])) {
     if (empty($_POST['newsHeadline']) || empty($_POST['newsDescription'])) {
         echo 'Fill in all the fields!';
     } else {
-        editNews($_POST['newsHeadline'], $_POST['newsDescription'], $_GET['id']);
+        editNews($_POST['newsHeadline'], $_POST['newsDescription'], $_GET['id'], $_POST['author']);
     }
 }
 

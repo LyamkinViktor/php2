@@ -13,6 +13,7 @@ class News extends Model
 {
     protected const TABLE = 'news';
     public $article;
+    public $author_id;
 
     /**
      * Get model name.
@@ -35,5 +36,38 @@ class News extends Model
         $sql = 'SELECT * FROM ' . self::TABLE . ' LIMIT 3';
 
         return $db->query($sql, self::class);
+    }
+
+    /**
+     * Get the author of news.
+     *
+     * @param string $name Name of property.
+     *
+     * @return mixed|null
+     */
+    public function __get($name)
+    {
+        if ('author' === $name) {
+                $db = new Db();
+
+                $sql = 'SELECT * FROM authors WHERE authors.id = :id';
+                $author = $db->query($sql, Author::class, [':id' => $this->author_id]);
+
+                return $author[0];
+        }
+
+        return null;
+    }
+
+    /**
+     * Check the existence of the author of news.
+     *
+     * @param string $name Name of property.
+     *
+     * @return boolean
+     */
+    public function __isset($name)
+    {
+        return 'author' === $name && !empty($this->author_id);
     }
 }

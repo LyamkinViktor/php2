@@ -8,13 +8,20 @@
     <title>News</title>
 </head>
 <body>
-    <?php foreach ($lastThreeNews as $news) {?>
+
+    <?php foreach ($lastThreeNews as $news): ?>
         <p>
-            <a href="/php2/App/news.php?id=<?php echo $news->id; ?>">
+            <a href="/php2/news.php?id=<?php echo $news->id; ?>">
                 <?php  echo $news->article; ?>
-            </a>
+            </a><br>
+
+            <?php if (isset($news->author)): ?>
+                Author: <?php echo $news->author->name ?>
+            <?php else: ?>
+                Author unknown.
+            <?php endif ?>
         </p>
-    <?php } ?>
+    <?php endforeach ?>
 
     <div>
         <a href="/php2/App/Admin/admin.php">
